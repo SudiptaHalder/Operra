@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Pricing', href: '/pricing' },
   { name: 'About', href: '/about' },
   { name: 'Blog', href: '/blog' },
+  { name: 'Contact', href: '/contact' }, // Add this line
 ]
 
 export function Header() {
@@ -44,17 +45,13 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            <Link
-              href="/book-demo"
-              className="px-4 py-2 rounded-md text-sm font-medium text-white transition-all duration-300 hover:shadow-lg hover:scale-105"
-              style={{
-                background: 'linear-gradient(135deg, #982598 0%, #E491C9 50%, #15173D 100%)',
-                backgroundSize: '200% 200%',
-                animation: 'gradientShift 3s ease infinite'
-              }}
-            >
-              Get demo
-            </Link>
+           <Link
+  href="/book-demo"
+  className="px-4 py-2 rounded-md text-sm font-medium text-white transition-colors hover:opacity-90"
+  style={{ backgroundColor: '#982598' }}
+>
+  Get demo
+</Link>
           </div>
 
           {/* Mobile menu button */}

@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import ContentProductTemplate from '@/components/product/ProductTemplate'
+import FeatureProductTemplate from '@/components/product/ProductTemplate'
 import { productsData } from '@/components/product/ProductTemplate'
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -11,5 +11,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function HRManagementPage() {
-  return <ContentProductTemplate slug="hr-management" />
+  return <FeatureProductTemplate slug="hr-management" />
 }
