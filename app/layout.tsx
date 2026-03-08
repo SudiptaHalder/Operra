@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
+import ChatBot from '@/components/chat/ChatBot'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,8 +12,7 @@ export const metadata: Metadata = {
     default: 'Operra - Business Management for Small Teams',
     template: '%s | Operra'
   },
-  description: 'Simple, affordable business management software for small businesses. HR, vendor management, payroll, and more.',
-  keywords: ['small business software', 'HR management', 'vendor management', 'payroll tracking'],
+  description: 'Simple, affordable business management software for small businesses.',
 }
 
 export default function RootLayout({
@@ -28,6 +28,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <ChatBot /> {/* This adds the chat widget to every page */}
       </body>
     </html>
   )
