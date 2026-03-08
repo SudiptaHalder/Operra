@@ -1,3 +1,4 @@
+
 // import Link from 'next/link'
 // import { 
 //   Facebook, 
@@ -6,11 +7,9 @@
 //   Instagram, 
 //   Youtube,
 //   Mail,
-//   Phone,
-//   MapPin,
-//   ArrowRight,
 //   Heart
 // } from 'lucide-react'
+// import SubscribeButton from '@/components/forms/SubscribeButton'
 
 // const navigation = {
 //   products: [
@@ -23,31 +22,22 @@
 //   ],
 //   company: [
 //     { name: 'About Us', href: '/about' },
+//     { name: 'Our Team', href: '/about#team' },
+//     { name: 'Mission & Values', href: '/about#mission' },
 //     { name: 'Blog', href: '/blog' },
-//     { name: 'Careers', href: '/careers', badge: 'Hiring' },
-//     { name: 'Press', href: '/press' },
-//     { name: 'Partners', href: '/partners' },
+//     { name: 'Contact Us', href: '/contact' },
+//     { name: 'Book a Demo', href: '/book-demo', highlight: true },
 //   ],
 //   resources: [
-//     { name: 'Documentation', href: '/docs' },
 //     { name: 'Help Center', href: '/help' },
 //     { name: 'Guides & eBooks', href: '/resources' },
-//     { name: 'Webinars', href: '/webinars' },
-//     { name: 'API Status', href: '/status' },
-//   ],
-//   support: [
-//     { name: 'Contact Sales', href: '/contact' },
-//     { name: 'Book Demo', href: '/book-demo' },
-//     { name: 'Support Center', href: '/support' },
+//     { name: 'Webinars', href: '/resources#webinars' },
 //     { name: 'FAQs', href: '/faq' },
-//     { name: 'System Status', href: '/status', external: true },
 //   ],
 //   legal: [
 //     { name: 'Privacy Policy', href: '/privacy' },
 //     { name: 'Terms of Service', href: '/terms' },
-//     { name: 'Security', href: '/security' },
 //     { name: 'Cookie Policy', href: '/cookies' },
-//     { name: 'GDPR', href: '/gdpr' },
 //   ]
 // }
 
@@ -84,22 +74,12 @@
 //             </p>
             
 //             {/* Contact Info */}
-//             <div className="mt-6 space-y-3">
+//             <div className="mt-6">
 //               <div className="flex items-center gap-3 text-sm">
 //                 <Mail className="h-4 w-4 text-gray-500" />
 //                 <a href="mailto:support@operra.com" className="text-gray-400 hover:text-white transition-colors">
 //                   support@operra.com
 //                 </a>
-//               </div>
-//               <div className="flex items-center gap-3 text-sm">
-//                 <Phone className="h-4 w-4 text-gray-500" />
-//                 <a href="tel:+18005551234" className="text-gray-400 hover:text-white transition-colors">
-//                   +1 (800) 555-1234
-//                 </a>
-//               </div>
-//               <div className="flex items-center gap-3 text-sm">
-//                 <MapPin className="h-4 w-4 text-gray-500" />
-//                 <span className="text-gray-400">San Francisco, CA</span>
 //               </div>
 //             </div>
 
@@ -137,24 +117,7 @@
 //               Subscribe to our newsletter for tips, guides, and updates tailored for small businesses.
 //             </p>
             
-//             <form className="flex flex-col sm:flex-row gap-3">
-//               <input
-//                 type="email"
-//                 placeholder="Enter your email"
-//                 className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-//                 required
-//               />
-//               <button
-//                 type="submit"
-//                 className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-pink-700 transition-all duration-300 whitespace-nowrap"
-//               >
-//                 Subscribe
-//               </button>
-//             </form>
-            
-//             <p className="text-xs text-gray-500 mt-3">
-//               By subscribing, you agree to our Privacy Policy. We respect your inbox — unsubscribe anytime.
-//             </p>
+//             <SubscribeButton variant="footer" />
 
 //             {/* Trust Badges */}
 //             <div className="flex flex-wrap gap-6 mt-8">
@@ -180,8 +143,8 @@
 //           </div>
 //         </div>
 
-//         {/* Navigation Links */}
-//         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 py-16">
+//         {/* Navigation Links - 4 columns */}
+//         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-16">
 //           {/* Products */}
 //           <div>
 //             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
@@ -199,14 +162,13 @@
 //                     }`}
 //                   >
 //                     {item.name}
-//                     {item.highlight && <ArrowRight className="inline h-3 w-3 ml-1" />}
 //                   </Link>
 //                 </li>
 //               ))}
 //             </ul>
 //           </div>
 
-//           {/* Company */}
+//           {/* Company - Full Menu */}
 //           <div>
 //             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
 //               Company
@@ -216,14 +178,13 @@
 //                 <li key={item.name}>
 //                   <Link
 //                     href={item.href}
-//                     className="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-2"
+//                     className={`text-sm transition-colors ${
+//                       item.highlight 
+//                         ? 'text-purple-400 hover:text-purple-300 font-medium' 
+//                         : 'text-gray-400 hover:text-white'
+//                     }`}
 //                   >
 //                     {item.name}
-//                     {item.badge && (
-//                       <span className="text-xs px-2 py-0.5 bg-green-500/20 text-green-400 rounded-full">
-//                         {item.badge}
-//                       </span>
-//                     )}
 //                   </Link>
 //                 </li>
 //               ))}
@@ -244,37 +205,6 @@
 //                   >
 //                     {item.name}
 //                   </Link>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-
-//           {/* Support */}
-//           <div>
-//             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-//               Support
-//             </h3>
-//             <ul className="space-y-3">
-//               {navigation.support.map((item) => (
-//                 <li key={item.name}>
-//                   {item.external ? (
-//                     <a
-//                       href={item.href}
-//                       target="_blank"
-//                       rel="noopener noreferrer"
-//                       className="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1"
-//                     >
-//                       {item.name}
-//                       <span className="text-xs">↗</span>
-//                     </a>
-//                   ) : (
-//                     <Link
-//                       href={item.href}
-//                       className="text-sm text-gray-400 hover:text-white transition-colors"
-//                     >
-//                       {item.name}
-//                     </Link>
-//                   )}
 //                 </li>
 //               ))}
 //             </ul>
@@ -357,8 +287,8 @@ const navigation = {
   ],
   resources: [
     { name: 'Help Center', href: '/help' },
-    { name: 'Guides & eBooks', href: '/resources' },
-    { name: 'Webinars', href: '/resources#webinars' },
+    { name: 'Guides & eBooks', href: '/resources/guides' },
+    { name: 'Webinars', href: '/resources/webinars' },
     { name: 'FAQs', href: '/faq' },
   ],
   legal: [
@@ -389,12 +319,37 @@ export function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 pb-16 border-b border-gray-800">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <Link href="/" className="inline-block mb-6">
-              <span className="text-2xl font-bold">
-                <span className="text-white">op</span>
-                <span className="text-gray-400">erra</span>
-              </span>
+            {/* Enhanced Logo - Matching Header */}
+            <Link href="/" className="group relative inline-flex items-center mb-6">
+              <div className="relative flex items-center">
+                {/* Icon/Symbol */}
+                <div className="relative w-10 h-10 mr-3">
+                  {/* Outer Ring */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg opacity-20 group-hover:opacity-30 transition-opacity" />
+                  
+                  {/* Inner Shape */}
+                  <div className="absolute inset-1 bg-gradient-to-br from-purple-600 to-pink-600 rounded-md flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-white font-bold text-lg">O</span>
+                  </div>
+                  
+                  {/* Glow Effect */}
+                  <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity" />
+                </div>
+                
+                {/* Text Logo */}
+                <div className="flex items-center">
+                  <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                    oper
+                  </span>
+                  <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
+                    ra
+                    {/* Accent Dot */}
+                    <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-75" />
+                  </span>
+                </div>
+              </div>
             </Link>
+
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
               Simple, affordable business management software built specifically for small businesses. 
               No complexity, no enterprise bloat — just tools that work.
@@ -403,7 +358,9 @@ export function Footer() {
             {/* Contact Info */}
             <div className="mt-6">
               <div className="flex items-center gap-3 text-sm">
-                <Mail className="h-4 w-4 text-gray-500" />
+                <div className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center">
+                  <Mail className="h-4 w-4 text-gray-400" />
+                </div>
                 <a href="mailto:support@operra.com" className="text-gray-400 hover:text-white transition-colors">
                   support@operra.com
                 </a>
@@ -415,7 +372,7 @@ export function Footer() {
               <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
                 Follow Us
               </h3>
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 {socialLinks.map((item) => {
                   const Icon = item.icon
                   return (
@@ -424,7 +381,7 @@ export function Footer() {
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-white transition-colors"
+                      className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 transition-all hover:scale-110"
                       aria-label={item.name}
                     >
                       <Icon className="h-5 w-5" />
