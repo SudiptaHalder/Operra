@@ -177,7 +177,7 @@ export default function DemoForm() {
     setErrors({ 
       submit: error instanceof Error 
         ? error.message 
-        : 'Something went wrong. Please email us directly at sales@operra.com' 
+        : 'Something went wrong. Please email us directly at sales@Trezbo.com' 
     })
     
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -198,7 +198,7 @@ export default function DemoForm() {
         </h2>
         
         <p className="text-lg text-gray-600 mb-6">
-          Thank you for your interest in Operra. We've sent a confirmation email to{' '}
+          Thank you for your interest in Trezbo. We've sent a confirmation email to{' '}
           <span className="font-medium text-purple-600">{formData.email}</span>
         </p>
         
@@ -227,10 +227,10 @@ export default function DemoForm() {
           <p className="text-sm text-gray-500">
             Didn't receive an email? Check your spam folder or contact us directly at{' '}
             <a 
-              href="mailto:sales@operra.com" 
+              href="mailto:sales@Trezbo.com" 
               className="text-purple-600 hover:text-purple-700 font-medium hover:underline"
             >
-              sales@operra.com
+              sales@Trezbo.com
             </a>
           </p>
           

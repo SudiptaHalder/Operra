@@ -79,7 +79,7 @@ export const hrComplianceData = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Stay compliant effortlessly</h3>
-          <p class="text-white/90 mb-6">Operra HR Management helps you track documents, deadlines, and compliance requirements.</p>
+          <p class="text-white/90 mb-6">Trezbo HR Management helps you track documents, deadlines, and compliance requirements.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <Zap class="w-4 h-4" />
@@ -113,7 +113,7 @@ export const hrComplianceData = {
     `,
     author: 'Alex Rivera',
     authorRole: 'Founder & CEO',
-    authorBio: 'Alex started Operra after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+    authorBio: 'Alex started Trezbo after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
     authorImage: '/authors/alex.jpg',
     date: 'Jan 20, 2024',
     readTime: '8 min read',

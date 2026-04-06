@@ -12,8 +12,8 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us - Operra',
-  description: 'Learn about Operra\'s mission to provide simple, affordable business management software for small businesses.',
+  title: 'About Us - Trezbo',
+  description: 'Learn about Trezbo\'s mission to provide simple, affordable business management software for small businesses.',
 }
 
 const values = [
@@ -43,7 +43,7 @@ const team = [
   {
     name: 'Alex Rivera',
     role: 'Founder & CEO',
-    bio: 'Former small business owner who got tired of complex, expensive software. Started Operra to build what he wished existed.',
+    bio: 'Former small business owner who got tired of complex, expensive software. Started Trezbo to build what he wished existed.',
     initials: 'AR',
     color: '#982598'
   },
@@ -79,7 +79,7 @@ const milestones = [
   {
     year: '2021',
     title: 'First Prototype',
-    description: 'Built the first version of Operra with input from 50+ small business owners.'
+    description: 'Built the first version of Trezbo with input from 50+ small business owners.'
   },
   {
     year: '2022',
@@ -135,7 +135,7 @@ export default function AboutPage() {
               </h1>
               
               <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                Operra was founded on a simple idea: small businesses deserve software that's 
+                Trezbo was founded on a simple idea: small businesses deserve software that's 
                 actually built for them. Not watered-down enterprise tools, not bloated platforms 
                 with features you'll never use. Just simple, affordable tools that work.
               </p>
@@ -202,7 +202,7 @@ export default function AboutPage() {
                 make you watch hours of training videos just to get started.
               </p>
               <p className="mt-4 text-gray-600">
-                Operra is different. We build for the other 99% — the small business owners who just want 
+                Trezbo is different. We build for the other 99% — the small business owners who just want 
                 simple tools that work. No complexity, no bloat, no enterprise pricing.
               </p>
               
@@ -234,7 +234,7 @@ export default function AboutPage() {
               </p>
               <div className="mt-6">
                 <p className="font-semibold">Alex Rivera</p>
-                <p className="text-sm opacity-90">Founder & CEO, Operra</p>
+                <p className="text-sm opacity-90">Founder & CEO, Trezbo</p>
               </div>
             </div>
           </div>
@@ -401,7 +401,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Why small businesses choose Operra
+                Why small businesses choose Trezbo
               </h2>
               <div className="mt-8 space-y-6">
                 {[
@@ -415,7 +415,7 @@ export default function AboutPage() {
                   },
                   {
                     title: 'Easy to use',
-                    description: 'No training required. If you can use a spreadsheet, you can use Operra.'
+                    description: 'No training required. If you can use a spreadsheet, you can use Trezbo.'
                   },
                   {
                     title: 'Support that cares',
@@ -444,7 +444,7 @@ export default function AboutPage() {
             >
               <h3 className="text-2xl font-bold mb-4">Ready to get started?</h3>
               <p className="mb-6 opacity-90">
-                Join thousands of small business owners who've simplified their operations with Operra.
+                Join thousands of small business owners who've simplified their operations with Trezbo.
               </p>
               <Link
                 href="/book-demo"

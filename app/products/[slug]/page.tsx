@@ -75,7 +75,7 @@ const products = {
     description: 'Complete employee management designed for small teams. Track time-off, store documents, manage performance — all in one place.',
     longDescription: `Managing employees manually is time-consuming and error-prone. Spreadsheets get outdated, documents get lost, and you waste hours on administrative tasks.
 
-Operra's HR Management System gives you a central place to manage everything employee-related. From hiring to offboarding, keep all your employee data organized and accessible.`,
+Trezbo's HR Management System gives you a central place to manage everything employee-related. From hiring to offboarding, keep all your employee data organized and accessible.`,
     icon: 'Users',
     color: '#982598',
     lightColor: '#98259810',
@@ -151,7 +151,7 @@ Operra's HR Management System gives you a central place to manage everything emp
     description: 'Track vendors, contracts, and payments in one simple dashboard. Get alerts before contracts expire.',
     longDescription: `Managing vendors with spreadsheets means missed renewals, lost contracts, and payment confusion. 
 
-Operra's Vendor Management System keeps all your vendor information organized and sends alerts before contracts expire.`,
+Trezbo's Vendor Management System keeps all your vendor information organized and sends alerts before contracts expire.`,
     icon: 'Truck',
     color: '#E491C9',
     lightColor: '#E491C910',
@@ -227,7 +227,7 @@ Operra's Vendor Management System keeps all your vendor information organized an
     description: 'Real-time overview of your operations, team performance, and revenue insights.',
     longDescription: `Running a business without data is flying blind. You need to know what's working and what's not.
 
-Operra's Business Dashboard gives you real-time insights into your operations, team performance, and revenue. Make decisions based on facts, not guesses.`,
+Trezbo's Business Dashboard gives you real-time insights into your operations, team performance, and revenue. Make decisions based on facts, not guesses.`,
     icon: 'LayoutDashboard',
     color: '#15173D',
     lightColor: '#15173D10',
@@ -303,7 +303,7 @@ Operra's Business Dashboard gives you real-time insights into your operations, t
     description: 'Streamlined onboarding with digital offer letters, automated checklists, and document collection.',
     longDescription: `Onboarding new employees manually is chaotic. Paperwork gets lost, tasks get missed, and new hires feel abandoned.
 
-Operra's Employee Onboarding system creates a consistent, professional experience for every new hire. From offer letter to day one, everything is automated.`,
+Trezbo's Employee Onboarding system creates a consistent, professional experience for every new hire. From offer letter to day one, everything is automated.`,
     icon: 'UserPlus',
     color: '#14B8A6',
     lightColor: '#14B8A610',
@@ -379,7 +379,7 @@ Operra's Employee Onboarding system creates a consistent, professional experienc
     description: 'Track time, attendance, and prepare payroll data without the complexity of enterprise systems.',
     longDescription: `Payroll mistakes frustrate employees and create headaches for you. Manual time tracking leads to errors and overtime disputes.
 
-Operra's Payroll Tracking makes it simple. Employees clock in/out, you approve timesheets, and export ready-to-use payroll data.`,
+Trezbo's Payroll Tracking makes it simple. Employees clock in/out, you approve timesheets, and export ready-to-use payroll data.`,
     icon: 'Clock',
     color: '#F59E0B',
     lightColor: '#F59E0B10',
@@ -467,12 +467,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   if (!product) {
     return {
-      title: 'Product Not Found - Operra',
+      title: 'Product Not Found - Trezbo',
     }
   }
 
   return {
-    title: `${product.name} - Operra`,
+    title: `${product.name} - Trezbo`,
     description: product.description,
   }
 }
@@ -747,7 +747,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               Works great with
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Combine {product.name} with other Operra tools for a complete solution.
+              Combine {product.name} with other Trezbo tools for a complete solution.
             </p>
           </div>
 

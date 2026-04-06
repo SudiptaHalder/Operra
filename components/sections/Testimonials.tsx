@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    content: "We were managing everything in spreadsheets. Operra saved us hours every week and gave us back time to focus on our customers.",
+    content: "We were managing everything in spreadsheets. Trezbo saved us hours every week and gave us back time to focus on our customers.",
     author: "Sarah Chen",
     role: "Owner, Chen's Bakery",
     rating: 5,
@@ -12,7 +12,7 @@ const testimonials = [
     initials: "SC"
   },
   {
-    content: "The vendor management feature alone is worth it. We haven't missed a single contract renewal since switching to Operra.",
+    content: "The vendor management feature alone is worth it. We haven't missed a single contract renewal since switching to Trezbo.",
     author: "Mike Rodriguez",
     role: "Founder, Rodriguez Plumbing",
     rating: 5,
@@ -49,7 +49,7 @@ export function Testimonials() {
             Trusted by small business owners
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            See what our customers have to say about Operra
+            See what our customers have to say about Trezbo
           </p>
         </div>
 

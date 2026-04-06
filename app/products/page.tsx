@@ -14,7 +14,7 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Products - Operra',
+  title: 'Products - Trezbo',
   description: 'Simple, affordable business management tools for small businesses. HR, vendor management, payroll, and more.',
 }
 
@@ -144,27 +144,27 @@ const products = [
 const comparisons = [
   {
     feature: 'Price',
-    operra: 'From $5/month',
+    Trezbo: 'From $5/month',
     competitors: '$30-100/month'
   },
   {
     feature: 'Setup time',
-    operra: '15 minutes',
+    Trezbo: '15 minutes',
     competitors: 'Days or weeks'
   },
   {
     feature: 'Training needed',
-    operra: 'None',
+    Trezbo: 'None',
     competitors: 'Hours of training'
   },
   {
     feature: 'Contract',
-    operra: 'Month-to-month',
+    Trezbo: 'Month-to-month',
     competitors: 'Annual commitment'
   },
   {
     feature: 'Support',
-    operra: 'Real humans',
+    Trezbo: 'Real humans',
     competitors: 'Chatbots'
   }
 ]
@@ -327,12 +327,12 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Why Operra Section */}
+      {/* Why Trezbo Section */}
       <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Why small businesses choose Operra
+              Why small businesses choose Trezbo
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               We're built differently. Here's how we compare.
@@ -345,7 +345,7 @@ export default function ProductsPage() {
                 <thead className="bg-gray-50">
                   <tr>
                     <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold" style={{ color: '#982598' }}>Operra</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold" style={{ color: '#982598' }}>Trezbo</th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-gray-400">Others</th>
                   </tr>
                 </thead>
@@ -354,7 +354,7 @@ export default function ProductsPage() {
                     <tr key={item.feature}>
                       <td className="px-6 py-4 text-sm text-gray-900">{item.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        <span className="text-sm font-medium" style={{ color: '#982598' }}>{item.operra}</span>
+                        <span className="text-sm font-medium" style={{ color: '#982598' }}>{item.Trezbo}</span>
                       </td>
                       <td className="px-6 py-4 text-center text-sm text-gray-400">{item.competitors}</td>
                     </tr>
@@ -449,7 +449,7 @@ export default function ProductsPage() {
               Ready to simplify your business?
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Join 500+ small business owners who've ditched spreadsheets for Operra.
+              Join 500+ small business owners who've ditched spreadsheets for Trezbo.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link

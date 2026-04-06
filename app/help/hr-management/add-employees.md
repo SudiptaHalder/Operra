@@ -17,7 +17,7 @@ tags: ['HR', 'employees', 'onboarding', 'setup']
 
 # How to Add Employees to HR Management
 
-Adding employees to Operra's HR Management system is simple and straightforward. Follow this step-by-step guide to get your team set up correctly.
+Adding employees to Trezbo's HR Management system is simple and straightforward. Follow this step-by-step guide to get your team set up correctly.
 
 ## Step 1: Navigate to Employees Section
 
@@ -85,4 +85,4 @@ Once employees are added, you can:
 - Assign training materials
 - Add to company directory
 
-Need more help? Contact our support team at support@operra.com.
+Need more help? Contact our support team at support@Trezbo.com.

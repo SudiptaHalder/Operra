@@ -11,7 +11,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Terms of Service - Operra',
+  title: 'Terms of Service - Trezbo',
   description: 'Our terms of service - fair, transparent, and designed with small businesses in mind.',
 }
 
@@ -86,7 +86,7 @@ export default function TermsPage() {
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900 mb-3">Agreement to Terms</h2>
                   <p className="text-gray-600 leading-relaxed">
-                    By accessing or using Operra's services, you agree to be bound by these Terms of Service. 
+                    By accessing or using Trezbo's services, you agree to be bound by these Terms of Service. 
                     If you disagree with any part of the terms, you may not access our services. We keep things 
                     simple and fair—no hidden surprises.
                   </p>
@@ -223,7 +223,7 @@ export default function TermsPage() {
           {/* Footer Note */}
           <div className="text-center mt-8">
             <p className="text-sm text-gray-400">
-              By using Operra, you agree to these terms. They're designed to be fair to everyone.
+              By using Trezbo, you agree to these terms. They're designed to be fair to everyone.
             </p>
           </div>
         </div>

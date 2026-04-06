@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Calendar, User, Clock, ArrowRight, Tag, Search } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Blog - Operra',
+  title: 'Blog - Trezbo',
   description: 'Tips, guides, and resources for small business owners. Learn how to manage employees, vendors, and operations more effectively.',
 }
 
@@ -162,7 +162,7 @@ export default function BlogPage() {
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text'
               }}>
-                Operra Blog
+                Trezbo Blog
               </span>
             </h1>
             

@@ -136,36 +136,38 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex items-center justify-between h-14 lg:h-16">
           {/* Enhanced Logo */}
-          <Link href="/" className="group relative flex items-center">
-            {/* Logo Container */}
-            <div className="relative flex items-center">
-              {/* Icon/Symbol */}
-              <div className="relative w-8 h-8 mr-2">
-                {/* Outer Ring */}
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg opacity-20 group-hover:opacity-30 transition-opacity" />
-                
-                {/* Inner Shape */}
-                <div className="absolute inset-1 bg-gradient-to-br from-purple-600 to-pink-600 rounded-md flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white font-bold text-sm">O</span>
-                </div>
-                
-                {/* Glow Effect */}
-                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity" />
-              </div>
-              
-              {/* Text Logo */}
-              <div className="flex items-center">
-                <span className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                  oper
-                </span>
-                <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent relative">
-                  ra
-                  {/* Accent Dot */}
-                  <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-75" />
-                </span>
-              </div>
-            </div>
-          </Link>
+         {/* Enhanced Logo */}
+<Link href="/" className="group relative flex items-center">
+  <div className="relative flex items-center">
+    
+    {/* Icon */}
+    <div className="relative w-9 h-9 mr-2">
+      {/* Outer glow */}
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-lg opacity-20 group-hover:opacity-40 transition-opacity" />
+      
+      {/* Inner box */}
+      <div className="absolute inset-1 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-md flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+        <span className="text-white font-bold text-sm">T</span>
+      </div>
+
+      {/* Glow */}
+      <div className="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity" />
+    </div>
+
+    {/* Text Logo */}
+    <div className="flex items-center">
+      <span className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+        Trez
+      </span>
+      <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent relative">
+        bo
+        {/* Accent dot */}
+        <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full opacity-75" />
+      </span>
+    </div>
+
+  </div>
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">

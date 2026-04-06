@@ -19,9 +19,9 @@ export async function POST(request: Request) {
 
     // Send welcome email to subscriber
     await resend.emails.send({
-      from: 'Operra <onboarding@resend.dev>',
+      from: 'Trezbo <onboarding@resend.dev>',
       to: [email],
-      subject: 'Welcome to Operra Newsletter!',
+      subject: 'Welcome to Trezbo Newsletter!',
       html: `
         <!DOCTYPE html>
         <html>
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
         <body>
           <div class="container">
             <div class="header">
-              <h1>Welcome to Operra!</h1>
+              <h1>Welcome to Trezbo!</h1>
             </div>
             <div class="content">
               <p>Thanks for subscribing to our newsletter!</p>
@@ -53,7 +53,7 @@ export async function POST(request: Request) {
 
     // Send notification to you
     await resend.emails.send({
-      from: 'Operra <onboarding@resend.dev>',
+      from: 'Trezbo <onboarding@resend.dev>',
       to: [process.env.SALES_EMAIL || 'sudiptah2090@gmail.com'],
       subject: 'New Newsletter Subscriber!',
       html: `

@@ -5,7 +5,7 @@ import { productsData } from '@/components/product/ProductTemplate'
 export async function generateMetadata(): Promise<Metadata> {
   const product = productsData['vendor-management']
   return {
-    title: `${product.name} - Operra`,
+    title: `${product.name} - Trezbo`,
     description: product.description,
   }
 }

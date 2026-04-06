@@ -20,7 +20,7 @@ export default function FeaturedArticle() {
         
         <p className="text-white/90 mb-6 max-w-2xl">
           Step-by-step guide to adding new employees, setting up profiles, 
-          managing permissions, and getting your team started with Operra.
+          managing permissions, and getting your team started with Trezbo.
         </p>
 
         <div className="flex flex-wrap items-center gap-6 text-sm text-white/80 mb-8">

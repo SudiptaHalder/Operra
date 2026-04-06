@@ -42,11 +42,11 @@
 // }
 
 // const socialLinks = [
-//   { name: 'Facebook', href: 'https://facebook.com/operra', icon: Facebook },
-//   { name: 'Twitter', href: 'https://twitter.com/operra', icon: Twitter },
-//   { name: 'LinkedIn', href: 'https://linkedin.com/company/operra', icon: Linkedin },
-//   { name: 'Instagram', href: 'https://instagram.com/operra', icon: Instagram },
-//   { name: 'YouTube', href: 'https://youtube.com/operra', icon: Youtube },
+//   { name: 'Facebook', href: 'https://facebook.com/Trezbo', icon: Facebook },
+//   { name: 'Twitter', href: 'https://twitter.com/Trezbo', icon: Twitter },
+//   { name: 'LinkedIn', href: 'https://linkedin.com/company/Trezbo', icon: Linkedin },
+//   { name: 'Instagram', href: 'https://instagram.com/Trezbo', icon: Instagram },
+//   { name: 'YouTube', href: 'https://youtube.com/Trezbo', icon: Youtube },
 // ]
 
 // export function Footer() {
@@ -77,8 +77,8 @@
 //             <div className="mt-6">
 //               <div className="flex items-center gap-3 text-sm">
 //                 <Mail className="h-4 w-4 text-gray-500" />
-//                 <a href="mailto:support@operra.com" className="text-gray-400 hover:text-white transition-colors">
-//                   support@operra.com
+//                 <a href="mailto:support@Trezbo.com" className="text-gray-400 hover:text-white transition-colors">
+//                   support@Trezbo.com
 //                 </a>
 //               </div>
 //             </div>
@@ -233,7 +233,7 @@
 //         {/* Bottom Bar */}
 //         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
 //           <p className="text-xs text-gray-500">
-//             &copy; {new Date().getFullYear()} Operra. All rights reserved.
+//             &copy; {new Date().getFullYear()} Trezbo. All rights reserved.
 //           </p>
           
 //           <div className="flex flex-wrap justify-center gap-6">
@@ -299,11 +299,11 @@ const navigation = {
 }
 
 const socialLinks = [
-  { name: 'Facebook', href: 'https://facebook.com/operra', icon: Facebook },
-  { name: 'Twitter', href: 'https://twitter.com/operra', icon: Twitter },
-  { name: 'LinkedIn', href: 'https://linkedin.com/company/operra', icon: Linkedin },
-  { name: 'Instagram', href: 'https://instagram.com/operra', icon: Instagram },
-  { name: 'YouTube', href: 'https://youtube.com/operra', icon: Youtube },
+  { name: 'Facebook', href: 'https://facebook.com/Trezbo', icon: Facebook },
+  { name: 'Twitter', href: 'https://twitter.com/Trezbo', icon: Twitter },
+  { name: 'LinkedIn', href: 'https://linkedin.com/company/Trezbo', icon: Linkedin },
+  { name: 'Instagram', href: 'https://instagram.com/Trezbo', icon: Instagram },
+  { name: 'YouTube', href: 'https://youtube.com/Trezbo', icon: Youtube },
 ]
 
 export function Footer() {
@@ -319,36 +319,37 @@ export function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 pb-16 border-b border-gray-800">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            {/* Enhanced Logo - Matching Header */}
-            <Link href="/" className="group relative inline-flex items-center mb-6">
-              <div className="relative flex items-center">
-                {/* Icon/Symbol */}
-                <div className="relative w-10 h-10 mr-3">
-                  {/* Outer Ring */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg opacity-20 group-hover:opacity-30 transition-opacity" />
-                  
-                  {/* Inner Shape */}
-                  <div className="absolute inset-1 bg-gradient-to-br from-purple-600 to-pink-600 rounded-md flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-white font-bold text-lg">O</span>
-                  </div>
-                  
-                  {/* Glow Effect */}
-                  <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity" />
-                </div>
-                
-                {/* Text Logo */}
-                <div className="flex items-center">
-                  <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                    oper
-                  </span>
-                  <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
-                    ra
-                    {/* Accent Dot */}
-                    <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-75" />
-                  </span>
-                </div>
-              </div>
-            </Link>
+           {/* Enhanced Logo - Trezbo */}
+<Link href="/" className="group relative inline-flex items-center mb-6">
+  <div className="relative flex items-center">
+    
+    {/* Icon */}
+    <div className="relative w-10 h-10 mr-3">
+      {/* Outer Glow */}
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-lg opacity-20 group-hover:opacity-40 transition-opacity" />
+      
+      {/* Inner Box */}
+      <div className="absolute inset-1 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-md flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+        <span className="text-white font-bold text-lg">T</span>
+      </div>
+      
+      {/* Glow Effect */}
+      <div className="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity" />
+    </div>
+
+    {/* Text Logo */}
+    <div className="flex items-center">
+      <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+        Trez
+      </span>
+      <span className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent relative">
+        bo
+        <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full opacity-75" />
+      </span>
+    </div>
+
+  </div>
+</Link>
 
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
               Simple, affordable business management software built specifically for small businesses. 
@@ -361,8 +362,8 @@ export function Footer() {
                 <div className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center">
                   <Mail className="h-4 w-4 text-gray-400" />
                 </div>
-                <a href="mailto:support@operra.com" className="text-gray-400 hover:text-white transition-colors">
-                  support@operra.com
+                <a href="mailto:support@Trezbo.com" className="text-gray-400 hover:text-white transition-colors">
+                  support@Trezbo.com
                 </a>
               </div>
             </div>
@@ -517,7 +518,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} Operra. All rights reserved.
+            &copy; {new Date().getFullYear()} Trezbo. All rights reserved.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6">

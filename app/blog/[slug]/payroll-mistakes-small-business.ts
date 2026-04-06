@@ -120,7 +120,7 @@ export const payrollMistakesData = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Never make payroll mistakes again</h3>
-          <p class="text-white/90 mb-6">Operra Payroll Tracking automates time tracking and payroll preparation.</p>
+          <p class="text-white/90 mb-6">Trezbo Payroll Tracking automates time tracking and payroll preparation.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <Zap class="w-4 h-4" />

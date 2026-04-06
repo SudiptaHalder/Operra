@@ -92,7 +92,7 @@ export const employeeOnboardingData = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Streamline your onboarding</h3>
-          <p class="text-white/90 mb-6">Operra Employee Onboarding automates checklists, document collection, and welcome emails.</p>
+          <p class="text-white/90 mb-6">Trezbo Employee Onboarding automates checklists, document collection, and welcome emails.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <Zap class="w-4 h-4" />
@@ -124,7 +124,7 @@ export const employeeOnboardingData = {
     `,
     author: 'Sarah Okonkwo',
     authorRole: 'Customer Success',
-    authorBio: 'Sarah previously owned a restaurant and understands small business challenges firsthand. She ensures every Operra customer gets the help they need.',
+    authorBio: 'Sarah previously owned a restaurant and understands small business challenges firsthand. She ensures every Trezbo customer gets the help they need.',
     authorImage: '/authors/sarah.jpg',
     date: 'Feb 28, 2024',
     readTime: '7 min read',

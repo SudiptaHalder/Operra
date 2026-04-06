@@ -44,7 +44,7 @@ export async function POST(request: Request) {
 
     // SANDBOX MODE: Send to your own email only
     const { data, error } = await resend.emails.send({
-      from: 'Operra <onboarding@resend.dev>',
+      from: 'Trezbo <onboarding@resend.dev>',
       to: ['sudiptah2090@gmail.com'], // Your email only (must match your Resend account email)
       subject: `New Demo Request: ${businessName}`,
       html: `

@@ -15,8 +15,8 @@ import {
 import ChatButton from '@/components/contact/ChatButton'
 
 export const metadata = {
-  title: 'Help Center - Operra',
-  description: 'Get help with Operra products. Quick answers to common questions.',
+  title: 'Help Center - Trezbo',
+  description: 'Get help with Trezbo products. Quick answers to common questions.',
 }
 
 const quickTopics = [
@@ -81,7 +81,7 @@ const faqs = [
   },
   {
     question: 'How do I contact support?',
-    answer: 'Email us at support@operra.com or use the chat button below.'
+    answer: 'Email us at support@Trezbo.com or use the chat button below.'
   },
   {
     question: 'Can I export my data?',
@@ -167,7 +167,7 @@ export default function HelpCenterPage() {
             <p className="text-sm text-white/90 mb-6">Our support team is ready to assist</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
-                href="mailto:support@operra.com"
+                href="mailto:support@Trezbo.com"
                 className="bg-white text-purple-600 px-5 py-2.5 rounded-lg font-medium hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2 text-sm"
               >
                 <Mail className="h-4 w-4" />

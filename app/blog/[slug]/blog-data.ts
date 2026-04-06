@@ -83,7 +83,7 @@
         
 //         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
 //           <h3 class="text-2xl font-bold mb-3">Ready to simplify your HR?</h3>
-//           <p class="text-white/90 mb-6">Join 500+ small businesses that have ditched spreadsheets for Operra.</p>
+//           <p class="text-white/90 mb-6">Join 500+ small businesses that have ditched spreadsheets for Trezbo.</p>
 //           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
 //             Book a free demo
 //             <Zap class="w-4 h-4" />
@@ -111,7 +111,7 @@
 //     `,
 //     author: 'Alex Rivera',
 //     authorRole: 'Founder & CEO',
-//     authorBio: 'Alex started Operra after struggling with complex HR software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+//     authorBio: 'Alex started Trezbo after struggling with complex HR software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
 //     authorImage: '/authors/alex.jpg',
 //     date: 'Mar 15, 2024',
 //     readTime: '5 min read',
@@ -195,7 +195,7 @@
         
 //         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
 //           <h3 class="text-2xl font-bold mb-3">Never miss a renewal again</h3>
-//           <p class="text-white/90 mb-6">Operra Vendor Management sends automatic reminders before contracts expire.</p>
+//           <p class="text-white/90 mb-6">Trezbo Vendor Management sends automatic reminders before contracts expire.</p>
 //           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
 //             Try it free
 //             <Sparkles class="w-4 h-4" />
@@ -220,7 +220,7 @@
 //     `,
 //     author: 'Maya Patel',
 //     authorRole: 'Head of Product',
-//     authorBio: 'Maya leads product development at Operra, focusing on creating intuitive tools that solve real problems for small businesses.',
+//     authorBio: 'Maya leads product development at Trezbo, focusing on creating intuitive tools that solve real problems for small businesses.',
 //     authorImage: '/authors/maya.jpg',
 //     date: 'Mar 10, 2024',
 //     readTime: '4 min read',
@@ -256,7 +256,7 @@ const basePosts = {
     content: `...`, // Keep your existing HR post content
     author: 'Alex Rivera',
     authorRole: 'Founder & CEO',
-    authorBio: 'Alex started Operra after struggling with complex HR software in his own small business.',
+    authorBio: 'Alex started Trezbo after struggling with complex HR software in his own small business.',
     authorImage: '/authors/alex.jpg',
     date: 'Mar 15, 2024',
     readTime: '5 min read',
@@ -277,7 +277,7 @@ const basePosts = {
     content: `...`, // Keep your existing vendor post content
     author: 'Maya Patel',
     authorRole: 'Head of Product',
-    authorBio: 'Maya leads product development at Operra, focusing on creating intuitive tools.',
+    authorBio: 'Maya leads product development at Trezbo, focusing on creating intuitive tools.',
     authorImage: '/authors/maya.jpg',
     date: 'Mar 10, 2024',
     readTime: '4 min read',
@@ -378,7 +378,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Ready to simplify your HR?</h3>
-          <p class="text-white/90 mb-6">Join 500+ small businesses that have ditched spreadsheets for Operra.</p>
+          <p class="text-white/90 mb-6">Join 500+ small businesses that have ditched spreadsheets for Trezbo.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Book a free demo
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -406,7 +406,7 @@ export const blogPosts = {
     `,
     author: 'Alex Rivera',
     authorRole: 'Founder & CEO',
-    authorBio: 'Alex started Operra after struggling with complex HR software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+    authorBio: 'Alex started Trezbo after struggling with complex HR software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
     authorImage: '/authors/alex.jpg',
     date: 'Mar 15, 2024',
     readTime: '5 min read',
@@ -490,7 +490,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Never miss a renewal again</h3>
-          <p class="text-white/90 mb-6">Operra Vendor Management sends automatic reminders before contracts expire.</p>
+          <p class="text-white/90 mb-6">Trezbo Vendor Management sends automatic reminders before contracts expire.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -515,7 +515,7 @@ export const blogPosts = {
     `,
     author: 'Maya Patel',
     authorRole: 'Head of Product',
-    authorBio: 'Maya leads product development at Operra, focusing on creating intuitive tools that solve real problems for small businesses.',
+    authorBio: 'Maya leads product development at Trezbo, focusing on creating intuitive tools that solve real problems for small businesses.',
     authorImage: '/authors/maya.jpg',
     date: 'Mar 10, 2024',
     readTime: '4 min read',
@@ -656,7 +656,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Never make payroll mistakes again</h3>
-          <p class="text-white/90 mb-6">Operra Payroll Tracking automates time tracking and payroll preparation.</p>
+          <p class="text-white/90 mb-6">Trezbo Payroll Tracking automates time tracking and payroll preparation.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -819,7 +819,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Streamline your onboarding</h3>
-          <p class="text-white/90 mb-6">Operra Employee Onboarding automates checklists, document collection, and welcome emails.</p>
+          <p class="text-white/90 mb-6">Trezbo Employee Onboarding automates checklists, document collection, and welcome emails.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -851,7 +851,7 @@ export const blogPosts = {
     `,
     author: 'Sarah Okonkwo',
     authorRole: 'Customer Success',
-    authorBio: 'Sarah previously owned a restaurant and understands small business challenges firsthand. She ensures every Operra customer gets the help they need.',
+    authorBio: 'Sarah previously owned a restaurant and understands small business challenges firsthand. She ensures every Trezbo customer gets the help they need.',
     authorImage: '/authors/sarah.jpg',
     date: 'Feb 28, 2024',
     readTime: '7 min read',
@@ -914,7 +914,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Ready to ditch spreadsheets?</h3>
-          <p class="text-white/90 mb-6">Operra gives you all the power of spreadsheets without the chaos.</p>
+          <p class="text-white/90 mb-6">Trezbo gives you all the power of spreadsheets without the chaos.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -948,7 +948,7 @@ export const blogPosts = {
     `,
     author: 'Alex Rivera',
     authorRole: 'Founder & CEO',
-    authorBio: 'Alex started Operra after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+    authorBio: 'Alex started Trezbo after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
     authorImage: '/authors/alex.jpg',
     date: 'Feb 20, 2024',
     readTime: '5 min read',
@@ -1040,7 +1040,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">See all your metrics in one place</h3>
-          <p class="text-white/90 mb-6">Operra Business Dashboard gives you real-time insights into your business.</p>
+          <p class="text-white/90 mb-6">Trezbo Business Dashboard gives you real-time insights into your business.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -1078,7 +1078,7 @@ export const blogPosts = {
     `,
     author: 'Maya Patel',
     authorRole: 'Head of Product',
-    authorBio: 'Maya leads product development at Operra, focusing on creating intuitive tools that solve real problems for small businesses.',
+    authorBio: 'Maya leads product development at Trezbo, focusing on creating intuitive tools that solve real problems for small businesses.',
     authorImage: '/authors/maya.jpg',
     date: 'Feb 12, 2024',
     readTime: '6 min read',
@@ -1221,7 +1221,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Automate vendor tracking</h3>
-          <p class="text-white/90 mb-6">Operra Vendor Management makes it easy to track performance and get renewal reminders.</p>
+          <p class="text-white/90 mb-6">Trezbo Vendor Management makes it easy to track performance and get renewal reminders.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -1358,7 +1358,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Simplify time tracking</h3>
-          <p class="text-white/90 mb-6">Operra Payroll Tracking makes time tracking painless for you and your employees.</p>
+          <p class="text-white/90 mb-6">Trezbo Payroll Tracking makes time tracking painless for you and your employees.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -1382,7 +1382,7 @@ export const blogPosts = {
     `,
     author: 'Sarah Okonkwo',
     authorRole: 'Customer Success',
-    authorBio: 'Sarah previously owned a restaurant and understands small business challenges firsthand. She ensures every Operra customer gets the help they need.',
+    authorBio: 'Sarah previously owned a restaurant and understands small business challenges firsthand. She ensures every Trezbo customer gets the help they need.',
     authorImage: '/authors/sarah.jpg',
     date: 'Jan 28, 2024',
     readTime: '5 min read',
@@ -1482,7 +1482,7 @@ export const blogPosts = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Stay compliant effortlessly</h3>
-          <p class="text-white/90 mb-6">Operra HR Management helps you track documents, deadlines, and compliance requirements.</p>
+          <p class="text-white/90 mb-6">Trezbo HR Management helps you track documents, deadlines, and compliance requirements.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -1516,7 +1516,7 @@ export const blogPosts = {
     `,
     author: 'Alex Rivera',
     authorRole: 'Founder & CEO',
-    authorBio: 'Alex started Operra after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+    authorBio: 'Alex started Trezbo after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
     authorImage: '/authors/alex.jpg',
     date: 'Jan 20, 2024',
     readTime: '8 min read',

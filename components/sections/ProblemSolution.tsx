@@ -19,7 +19,7 @@ export function ProblemSolution() {
             From chaos to clarity
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            See how Operra transforms your business operations
+            See how Trezbo transforms your business operations
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export function ProblemSolution() {
             }} />
             <h3 className="text-xl font-semibold mb-6 flex items-center gap-2" style={{ color: '#982598' }}>
               <X className="h-5 w-5" />
-              Before Operra
+              Before Trezbo
             </h3>
             <div className="space-y-4">
               {[
@@ -63,7 +63,7 @@ export function ProblemSolution() {
             }} />
             <h3 className="text-xl font-semibold mb-6 flex items-center gap-2" style={{ color: '#15173D' }}>
               <Check className="h-5 w-5" />
-              With Operra
+              With Trezbo
             </h3>
             <div className="space-y-4">
               {[

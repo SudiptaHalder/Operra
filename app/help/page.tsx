@@ -24,14 +24,14 @@
 // import ChatButton from '@/components/contact/ChatButton'
 
 // export const metadata = {
-//   title: 'Help Center - Operra',
-//   description: 'Find answers, guides, and support for Operra products. Get help with HR management, vendor tracking, payroll, and more.',
+//   title: 'Help Center - Trezbo',
+//   description: 'Find answers, guides, and support for Trezbo products. Get help with HR management, vendor tracking, payroll, and more.',
 // }
 
 // const helpCategories = [
 //   {
 //     title: 'Getting Started',
-//     description: 'New to Operra? Start here',
+//     description: 'New to Trezbo? Start here',
 //     icon: Sparkles,
 //     color: 'purple',
 //     articles: [
@@ -288,8 +288,8 @@ import PopularArticles from '@/components/articles/PopularArticles'
 import FeaturedArticle from '@/components/articles/FeaturedArticle'
 
 export const metadata = {
-  title: 'Help Center - Operra',
-  description: 'Find answers, guides, and support for Operra products. Get help with HR management, vendor tracking, payroll, and more.',
+  title: 'Help Center - Trezbo',
+  description: 'Find answers, guides, and support for Trezbo products. Get help with HR management, vendor tracking, payroll, and more.',
 }
 
 export default function HelpCenterPage() {

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Check, X, HelpCircle, Users, Building2, Sparkles } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Pricing - Operra',
+  title: 'Pricing - Trezbo',
   description: 'Simple, affordable pricing for small businesses. Plans start at just $5 per month.',
 }
 

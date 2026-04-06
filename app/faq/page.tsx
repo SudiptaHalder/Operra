@@ -28,19 +28,19 @@ const faqCategories = [
     color: 'purple',
     questions: [
       {
-        q: 'What is Operra?',
-        a: 'Operra is a simple, affordable business management software built specifically for small businesses. We offer HR management, vendor management, business dashboard, employee onboarding, and payroll tracking tools.'
+        q: 'What is Trezbo?',
+        a: 'Trezbo is a simple, affordable business management software built specifically for small businesses. We offer HR management, vendor management, business dashboard, employee onboarding, and payroll tracking tools.'
       },
       {
-        q: 'Who is Operra for?',
-        a: 'Operra is designed for small business owners with teams of 3-200 employees. We serve retail shops, restaurants, construction companies, marketing agencies, service businesses, and more.'
+        q: 'Who is Trezbo for?',
+        a: 'Trezbo is designed for small business owners with teams of 3-200 employees. We serve retail shops, restaurants, construction companies, marketing agencies, service businesses, and more.'
       },
       {
-        q: 'Do I need technical skills to use Operra?',
-        a: 'Not at all! Operra is designed to be intuitive and easy to use. If you can use a spreadsheet, you can use Operra. No training required.'
+        q: 'Do I need technical skills to use Trezbo?',
+        a: 'Not at all! Trezbo is designed to be intuitive and easy to use. If you can use a spreadsheet, you can use Trezbo. No training required.'
       },
       {
-        q: 'Is Operra really free to try?',
+        q: 'Is Trezbo really free to try?',
         a: 'Yes! We offer a 14-day free trial on all plans. No credit card required. You can cancel anytime.'
       }
     ]
@@ -51,7 +51,7 @@ const faqCategories = [
     color: 'pink',
     questions: [
       {
-        q: 'How much does Operra cost?',
+        q: 'How much does Trezbo cost?',
         a: 'Our plans start at just $5/month. Basic: $5/month (up to 50 employees), Professional: $8/month (up to 150 employees), Premium: $10/month (up to 200 employees). All plans include a 14-day free trial.'
       },
       {
@@ -79,7 +79,7 @@ const faqCategories = [
     questions: [
       {
         q: 'Can I use multiple products together?',
-        a: 'Absolutely! All Operra products work together seamlessly. HR data flows into payroll, vendor contracts appear in your dashboard, and onboarding connects to employee records.'
+        a: 'Absolutely! All Trezbo products work together seamlessly. HR data flows into payroll, vendor contracts appear in your dashboard, and onboarding connects to employee records.'
       },
       {
         q: 'Can I import data from spreadsheets?',
@@ -87,7 +87,7 @@ const faqCategories = [
       },
       {
         q: 'Is there a mobile app?',
-        a: 'Yes, Operra works perfectly on all devices - desktop, tablet, and phone. Native apps for iOS and Android are available.'
+        a: 'Yes, Trezbo works perfectly on all devices - desktop, tablet, and phone. Native apps for iOS and Android are available.'
       },
       {
         q: 'Can I customize fields?',
@@ -136,7 +136,7 @@ const faqCategories = [
         a: 'No, we never sell or share your data with third parties. Your information is yours alone. See our Privacy Policy for details.'
       },
       {
-        q: 'Is Operra GDPR compliant?',
+        q: 'Is Trezbo GDPR compliant?',
         a: 'Yes, we are fully GDPR compliant. We take data privacy seriously and follow all applicable regulations.'
       }
     ]
@@ -148,7 +148,7 @@ const faqCategories = [
     questions: [
       {
         q: 'How do I get help?',
-        a: 'You can reach us at support@operra.com, use the live chat on our website, or visit our Help Center for guides and articles.'
+        a: 'You can reach us at support@Trezbo.com, use the live chat on our website, or visit our Help Center for guides and articles.'
       },
       {
         q: 'What are your support hours?',
@@ -167,7 +167,7 @@ const faqCategories = [
 ]
 
 const popularQuestions = [
-  'How much does Operra cost?',
+  'How much does Trezbo cost?',
   'Is there a free trial?',
   'Can I cancel anytime?',
   'How secure is my data?',
@@ -221,7 +221,7 @@ export default function FAQPage() {
           </h1>
           
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Everything you need to know about Operra. Can't find what you're looking for? Just ask!
+            Everything you need to know about Trezbo. Can't find what you're looking for? Just ask!
           </p>
 
           {/* Search Bar */}

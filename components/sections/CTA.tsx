@@ -43,7 +43,7 @@ export function CTA() {
         </h2>
         
         <p className="mt-6 text-lg text-white/90 max-w-2xl mx-auto">
-          Join 500+ small business owners who've simplified their operations and gained back precious time with Operra.
+          Join 500+ small business owners who've simplified their operations and gained back precious time with Trezbo.
         </p>
 
         {/* Features */}

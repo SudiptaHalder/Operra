@@ -72,10 +72,10 @@
 // //               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
 // //               <p className="text-gray-600 mb-3">24/7 email support</p>
 // //               <a 
-// //                 href="mailto:sales@operra.com" 
+// //                 href="mailto:sales@Trezbo.com" 
 // //                 className="text-pink-600 font-medium hover:text-pink-700"
 // //               >
-// //                 sales@operra.com
+// //                 sales@Trezbo.com
 // //               </a>
 // //             </div>
 
@@ -259,7 +259,7 @@
 // import ChatButton from '@/components/contact/ChatButton'
 
 // export const metadata = {
-//   title: 'Contact Sales - Operra',
+//   title: 'Contact Sales - Trezbo',
 //   description: 'Get in touch with our sales team. We\'re here to help you find the right solution for your small business.',
 // }
 
@@ -319,10 +319,10 @@
 //               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
 //               <p className="text-gray-600 mb-3">24/7 email support</p>
 //               <a 
-//                 href="mailto:sales@operra.com" 
+//                 href="mailto:sales@Trezbo.com" 
 //                 className="text-pink-600 font-medium hover:text-pink-700"
 //               >
-//                 sales@operra.com
+//                 sales@Trezbo.com
 //               </a>
 //             </div>
 
@@ -515,7 +515,7 @@ import {
 import ChatButton from '@/components/contact/ChatButton'
 
 export const metadata = {
-  title: 'Contact Sales - Operra',
+  title: 'Contact Sales - Trezbo',
   description: 'Get in touch with our sales team. We\'re here to help you find the right solution for your small business.',
 }
 
@@ -564,10 +564,10 @@ export default function ContactPage() {
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
               <p className="text-gray-500 text-sm mb-3">Get a response within 24 hours</p>
               <a 
-                href="mailto:sales@operra.com" 
+                href="mailto:sales@Trezbo.com" 
                 className="text-purple-600 font-medium hover:text-purple-700 inline-flex items-center gap-1 group"
               >
-                sales@operra.com
+                sales@Trezbo.com
                 <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>

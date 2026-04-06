@@ -112,7 +112,7 @@
         
 //         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
 //           <h3 class="text-2xl font-bold mb-3">Ready to simplify your HR?</h3>
-//           <p class="text-white/90 mb-6">Join 500+ small businesses that have ditched spreadsheets for Operra.</p>
+//           <p class="text-white/90 mb-6">Join 500+ small businesses that have ditched spreadsheets for Trezbo.</p>
 //           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
 //             Book a free demo
 //             <Zap class="w-4 h-4" />
@@ -140,7 +140,7 @@
 //     `,
 //     author: 'Alex Rivera',
 //     authorRole: 'Founder & CEO',
-//     authorBio: 'Alex started Operra after struggling with complex HR software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+//     authorBio: 'Alex started Trezbo after struggling with complex HR software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
 //     authorImage: '/authors/alex.jpg',
 //     date: 'Mar 15, 2024',
 //     readTime: '5 min read',
@@ -209,7 +209,7 @@
         
 //         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
 //           <h3 class="text-2xl font-bold mb-3">Never miss a renewal again</h3>
-//           <p class="text-white/90 mb-6">Operra Vendor Management sends automatic reminders before contracts expire.</p>
+//           <p class="text-white/90 mb-6">Trezbo Vendor Management sends automatic reminders before contracts expire.</p>
 //           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
 //             Try it free
 //             <Sparkles class="w-4 h-4" />
@@ -219,7 +219,7 @@
 //     `,
 //     author: 'Maya Patel',
 //     authorRole: 'Head of Product',
-//     authorBio: 'Maya leads product development at Operra, focusing on creating intuitive tools that solve real problems for small businesses.',
+//     authorBio: 'Maya leads product development at Trezbo, focusing on creating intuitive tools that solve real problems for small businesses.',
 //     authorImage: '/authors/maya.jpg',
 //     date: 'Mar 10, 2024',
 //     readTime: '4 min read',
@@ -241,12 +241,12 @@
   
 //   if (!post) {
 //     return {
-//       title: 'Post Not Found - Operra Blog',
+//       title: 'Post Not Found - Trezbo Blog',
 //     }
 //   }
 
 //   return {
-//     title: `${post.title} - Operra Blog`,
+//     title: `${post.title} - Trezbo Blog`,
 //     description: post.excerpt,
 //   }
 // }
@@ -530,7 +530,7 @@
 
 //               {/* Advertisement / CTA */}
 //               <div className="bg-gray-900 rounded-2xl p-6 text-white shadow-lg">
-//                 <h3 className="text-xl font-bold mb-2">Try Operra free</h3>
+//                 <h3 className="text-xl font-bold mb-2">Try Trezbo free</h3>
 //                 <p className="text-gray-300 text-sm mb-4">
 //                   14-day trial, no credit card required.
 //                 </p>
@@ -582,12 +582,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   
   if (!post) {
     return {
-      title: 'Post Not Found - Operra Blog',
+      title: 'Post Not Found - Trezbo Blog',
     }
   }
 
   return {
-    title: `${post.title} - Operra Blog`,
+    title: `${post.title} - Trezbo Blog`,
     description: post.excerpt,
   }
 }
@@ -859,7 +859,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
               {/* Advertisement / CTA */}
               <div className="bg-gray-900 rounded-2xl p-6 text-white shadow-lg">
-                <h3 className="text-xl font-bold mb-2">Try Operra free</h3>
+                <h3 className="text-xl font-bold mb-2">Try Trezbo free</h3>
                 <p className="text-gray-300 text-sm mb-4">
                   14-day trial, no credit card required.
                 </p>

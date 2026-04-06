@@ -42,7 +42,7 @@ export const whenToUpgradeData = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Ready to ditch spreadsheets?</h3>
-          <p class="text-white/90 mb-6">Operra gives you all the power of spreadsheets without the chaos.</p>
+          <p class="text-white/90 mb-6">Trezbo gives you all the power of spreadsheets without the chaos.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <Zap class="w-4 h-4" />
@@ -76,7 +76,7 @@ export const whenToUpgradeData = {
     `,
     author: 'Alex Rivera',
     authorRole: 'Founder & CEO',
-    authorBio: 'Alex started Operra after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
+    authorBio: 'Alex started Trezbo after struggling with complex software in his own small business. He believes tools should be simple, affordable, and actually helpful.',
     authorImage: '/authors/alex.jpg',
     date: 'Feb 20, 2024',
     readTime: '5 min read',

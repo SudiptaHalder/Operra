@@ -10,7 +10,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Webinars - Operra',
+  title: 'Webinars - Trezbo',
   description: 'Free webinars for small business owners. Learn from experts about HR, vendor management, payroll, and more.',
 }
 

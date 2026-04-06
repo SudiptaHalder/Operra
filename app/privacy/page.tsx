@@ -14,7 +14,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Privacy Policy - Operra',
+  title: 'Privacy Policy - Trezbo',
   description: 'Your privacy matters. Learn how we protect and handle your data with care.',
 }
 
@@ -119,7 +119,7 @@ export default function PrivacyPolicyPage() {
                   <li className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
                     <span className="w-6 h-6 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 text-sm flex-shrink-0">•</span>
                     <div>
-                      <strong className="text-gray-900">Business Data:</strong> Employee records, vendor information, and other data you store in Operra.
+                      <strong className="text-gray-900">Business Data:</strong> Employee records, vendor information, and other data you store in Trezbo.
                     </div>
                   </li>
                   <li className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">

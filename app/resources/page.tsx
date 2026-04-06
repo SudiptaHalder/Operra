@@ -17,7 +17,7 @@
 // } from 'lucide-react'
 
 // export const metadata = {
-//   title: 'Resources - Operra',
+//   title: 'Resources - Trezbo',
 //   description: 'Free guides, webinars, and eBooks for small business owners. Learn how to manage employees, vendors, and operations effectively.',
 // }
 
@@ -60,7 +60,7 @@
 //     typeIcon: FileText,
 //     title: 'Employee Onboarding Checklist & Templates',
 //     description: 'Ready-to-use checklists, offer letter templates, and new hire forms.',
-//     author: 'Operra Team',
+//     author: 'Trezbo Team',
 //     date: 'Mar 5, 2024',
 //     format: 'Word, PDF, Excel',
 //     downloads: '3.2k',
@@ -71,7 +71,7 @@
 //     type: 'Case Study',
 //     typeIcon: TrendingUp,
 //     title: 'How Chen\'s Bakery Saved 5 Hours Per Week',
-//     description: 'See how a small bakery streamlined HR and vendor management with Operra.',
+//     description: 'See how a small bakery streamlined HR and vendor management with Trezbo.',
 //     author: 'Sarah Chen',
 //     date: 'Feb 28, 2024',
 //     readTime: '12 min read',
@@ -108,7 +108,7 @@
 //     typeIcon: FileText,
 //     title: 'Performance Review Templates',
 //     description: 'Customizable review forms for different roles and departments.',
-//     author: 'Operra Team',
+//     author: 'Trezbo Team',
 //     date: 'Feb 10, 2024',
 //     format: 'Word, PDF',
 //     downloads: '2.1k',
@@ -295,7 +295,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Resources - Operra',
+  title: 'Resources - Trezbo',
   description: 'Free guides and resources for small business owners.',
 }
 

@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Operra - Business Management for Small Teams',
-    template: '%s | Operra'
+    default: 'Trezbo - Business Management for Small Teams',
+    template: '%s | Trezbo'
   },
   description: 'Simple, affordable business management software for small businesses.',
 }

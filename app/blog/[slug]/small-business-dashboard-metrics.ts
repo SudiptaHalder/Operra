@@ -70,7 +70,7 @@ export const dashboardMetricsData = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">See all your metrics in one place</h3>
-          <p class="text-white/90 mb-6">Operra Business Dashboard gives you real-time insights into your business.</p>
+          <p class="text-white/90 mb-6">Trezbo Business Dashboard gives you real-time insights into your business.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <Zap class="w-4 h-4" />
@@ -108,7 +108,7 @@ export const dashboardMetricsData = {
     `,
     author: 'Maya Patel',
     authorRole: 'Head of Product',
-    authorBio: 'Maya leads product development at Operra, focusing on creating intuitive tools that solve real problems for small businesses.',
+    authorBio: 'Maya leads product development at Trezbo, focusing on creating intuitive tools that solve real problems for small businesses.',
     authorImage: '/authors/maya.jpg',
     date: 'Feb 12, 2024',
     readTime: '6 min read',

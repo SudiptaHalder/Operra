@@ -122,7 +122,7 @@ export const trackVendorData = {
         
         <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white my-10">
           <h3 class="text-2xl font-bold mb-3">Automate vendor tracking</h3>
-          <p class="text-white/90 mb-6">Operra Vendor Management makes it easy to track performance and get renewal reminders.</p>
+          <p class="text-white/90 mb-6">Trezbo Vendor Management makes it easy to track performance and get renewal reminders.</p>
           <a href="/book-demo" class="inline-flex items-center gap-2 bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
             Try it free
             <Zap class="w-4 h-4" />

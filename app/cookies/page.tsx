@@ -12,7 +12,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Cookie Policy - Operra',
+  title: 'Cookie Policy - Trezbo',
   description: 'Learn about how we use cookies to improve your experience.',
 }
 
@@ -257,7 +257,7 @@ export default function CookiePolicyPage() {
           {/* Footer Note */}
           <div className="text-center mt-8">
             <p className="text-sm text-gray-400">
-              Questions about cookies? Contact us at privacy@operra.com
+              Questions about cookies? Contact us at privacy@Trezbo.com
             </p>
           </div>
         </div>
