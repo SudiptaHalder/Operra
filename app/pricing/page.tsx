@@ -232,8 +232,7 @@ export default function PricingPage() {
                   
                   {/* Annual pricing note */}
                   <p className="mt-2 text-xs text-gray-400">
-                    or ${parseInt(plan.price.slice(1)) * 12 * 0.8}/year (save 20%)
-                  </p>
+or ${(parseInt(plan.price.slice(1)) * 12 * 0.8).toFixed(2)}/year (save 20%)                  </p>
                 </div>
 
                 <div className="mt-8 space-y-3">

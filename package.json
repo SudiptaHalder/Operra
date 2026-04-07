@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@react-pdf/renderer": "^4.3.3",
     "@sanity/client": "^7.16.0",
     "clsx": "^2.1.1",
     "contentful": "^11.10.5",
@@ -19,6 +20,7 @@
     "marked": "^17.0.4",
     "next": "16.1.6",
     "nodemailer": "^8.0.1",
+    "pdfkit": "^0.18.0",
     "react": "19.2.3",
     "react-chatbot-kit": "^2.2.2",
     "react-dom": "19.2.3",
@@ -28,6 +30,7 @@
   "devDependencies": {
     "@types/node": "^20.19.37",
     "@types/nodemailer": "^7.0.11",
+    "@types/pdfkit": "^0.17.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.27",
